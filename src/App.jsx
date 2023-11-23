@@ -1,7 +1,14 @@
+import { HashRouter as Router } from 'react-router-dom'
+import AnimatedRoutes from './components/AnimatedRoutes';
+
 function App() {
     return (
         <div className="App">
-            hello, this is test v2
+            
+            <Router>
+                <AnimatedRoutes />
+            </Router>
+
         </div>
     );
 }
