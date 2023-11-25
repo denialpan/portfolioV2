@@ -84,7 +84,7 @@ function Home() {
         setBg(colorLight);
         setIsDark(false);
         document.getElementById("main").style.backgroundColor = colorLight;
-        
+
         localStorage.setItem('backgroundColor', bg);
         localStorage.setItem('isDark', isDark);
     }
@@ -233,7 +233,7 @@ function Home() {
                     <motion.div
                         
                         whileHover={{cursor: "pointer"}}
-                        animate={{filter: isDark ? "invert(100%)" : "invert(0%)", transform: isDark ? "rotate(180deg)" : "rotate(0)"}}
+                        animate={{filter: isDark ? "invert(100%)" : "invert(0%)", transform: isDark ? "rotate(180deg)" : "rotate(0deg)"}}
                         transition={{
                             
                             transform: {duration: 0.5, ease: "circIn"},
