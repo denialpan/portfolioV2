@@ -163,7 +163,7 @@ function Home() {
                     <div className={pageCSS['stats']}> 
                     
                         <div> <b>  21 year old U.G. at <a href="https://www.gatech.edu" target="_blank" rel="noreferrer" style={{color: "inherit"}}> GATECH </a> </b></div>
-                        <div> React, Java, SQL, C, JavaFX </div>
+                        <div> React, Java, C, JavaFX </div>
                         <div> <i> learning how to cook </i> </div>
                     
                     </div>
