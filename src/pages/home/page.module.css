@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.page-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow-x: hidden;
+}
+
+.content {
+    margin: 5%;
+    width: 600px;
+}
+
+.name {
+    color: #7500FF;
+    font-family: 'Overpass Mono', monospace;
+    font-size: 25px;
+    white-space: nowrap;
+}
+
+.me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.stats {
+    
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    font-family: 'Source Code Pro', monospace;
+    text-align: right;
+}
+
+.description {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 17px;
+}
+
+.social-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 17px;
+}
+
+.social-svg {
+    width: 30px;
+    height: 100%;
+    max-width: 50px; 
+    max-height: 50px;
+}
+
+.resume {
+    border: solid;
+    border-width: 1px;
+    border-color: #7500FF;
+    background-color: #7500FF;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    width: 100px;
+    height: 100%;
+}
+
+.resume:hover {
+    cursor: pointer;
+}
+
+.link-to-projects {
+    padding-left: 15px;
+    font-family: 'Roboto Mono', monospace;
+    list-style-type: square;    
+}
+
+.item {
+    margin-bottom: 5px;
+}
+
+.link {
+    text-decoration: none;
+    color: #7500FF
+}
+
+
+
+@media only screen and (max-width: 1000px){
+    .name {
+        white-space: normal;
+    }
+}
