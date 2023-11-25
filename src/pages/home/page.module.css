@@ -86,13 +86,14 @@
 }
 
 .link-to-projects {
-    padding-left: 15px;
+    padding-left: 0.1rem;
     font-family: 'Roboto Mono', monospace;
     list-style-type: square;    
 }
 
 .item {
     margin-bottom: 5px;
+    list-style-position: inside;
 }
 
 .link {
