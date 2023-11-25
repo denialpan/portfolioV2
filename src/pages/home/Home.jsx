@@ -7,6 +7,8 @@ import linkedin from '../../images/icons/linkedin.svg'
 import github from '../../images/icons/github.svg'
 import facebook from '../../images/icons/facebook.svg'
 
+import darkThemeToggle from '../../images/icons/dark-theme.svg'
+
 import phrasesJSON from './phrases.json'
 
 import me from '../../images/me.jpg'
@@ -149,11 +151,8 @@ function Home() {
                     
                     <motion.img
                     
-                        whileHover={{borderRadius: "25px", cursor: "pointer"}}
-                        transition={{ease: "circOut", duration: 0.5}}
                         src={me} 
                         alt="me" 
-                        onClick={() => toggleThemes()}
 
                         title="CLICK TO TOGGLE THEME"
 
@@ -203,7 +202,9 @@ function Home() {
                 </motion.ul>
 
                 <div className={pageCSS['social-container']}>
-                    <motion.button 
+
+                    <div style={{display: "flex", gap: 17}}>
+                        <motion.button 
                         
                         whileHover={{color: "#7500FF", backgroundColor: isDark ? "#111111" : "#FFFFFF"}}
                         transition={{duration: 0.3}}
@@ -213,15 +214,35 @@ function Home() {
                             window.open("https://raw.githubusercontent.com/denialpan/portfolio/65a6fdba43ae67f67bca26b7fd252679a866eff4/src/Daniel%20Pan%20-%20Resume.pdf", "_blank");
                         }}
                         className={pageCSS['resume']}> RESUME </motion.button>
-                    <motion.div 
-                    
-                        animate={{filter: isDark ? "invert(100%)" : "invert(0%)"}}
-                        className={pageCSS['social-icons']}>
-                    <a href="https://www.linkedin.com/in/danielpan-/" target="_blank" rel="noreferrer"><img className={pageCSS['social-svg']} src={linkedin} alt="linkedin"></img></a>
-                    <a href="https://www.facebook.com/danpan123/" target="_blank" rel="noreferrer"><img className={pageCSS['social-svg']} src={facebook} alt="facebook"></img></a>
-                    <a href="https://github.com/denialpan" target="_blank" rel="noreferrer"><img className={pageCSS['social-svg']} src={github} alt="github"></img></a>
+                        <motion.div 
+                        
+                            animate={{filter: isDark ? "invert(100%)" : "invert(0%)"}}
+                            transition={{
+                                ease: "linear",
+                                duration: 0.3
+                            }}
+                            className={pageCSS['social-icons']}>
+                        <a href="https://www.linkedin.com/in/danielpan-/" target="_blank" rel="noreferrer"><img className={pageCSS['social-svg']} src={linkedin} alt="linkedin"></img></a>
+                        <a href="https://www.facebook.com/danpan123/" target="_blank" rel="noreferrer"><img className={pageCSS['social-svg']} src={facebook} alt="facebook"></img></a>
+                        <a href="https://github.com/denialpan" target="_blank" rel="noreferrer"><img className={pageCSS['social-svg']} src={github} alt="github"></img></a>
 
+                        </motion.div>
+                    </div>
+
+                    <motion.div
+                        
+                        whileHover={{cursor: "pointer"}}
+                        animate={{filter: isDark ? "invert(100%)" : "invert(0%)", transform: isDark ? "rotate(180deg)" : "rotate(0)"}}
+                        transition={{
+                            
+                            transform: {duration: 0.5, ease: "circIn"},
+                            duration: 0.3
+                        }}
+                        onClick={() => toggleThemes()}
+                    >
+                        <img className={pageCSS['social-svg']} src={darkThemeToggle} alt="toggle"></img>
                     </motion.div>
+                    
                 </div>
                
 
