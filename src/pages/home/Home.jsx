@@ -197,7 +197,7 @@ function Home() {
 
                 className={pageCSS['link-to-projects']}>
                     <li className={pageCSS['item']}> <a href="https://github.com/denialpan/DoABarrelWall" target="_blank" rel="noreferrer" className={pageCSS['link']}> DoABarrelWall</a> - iOS tweak development for iOS 12 - 15</li>
-                    <li className={pageCSS['item']}> <Link to="/blender" className={pageCSS['link']}>Blender</Link> - art things I've made in my free time</li>
+                    <li className={pageCSS['item']}> <Link to="/blender" className={pageCSS['link']}>Blender</Link> - some digital art things I've made </li>
                     <li className={pageCSS['item']}> <a href="https://github.com/denialpan/JoeBot" target="_blank" rel="noreferrer" className={pageCSS['link']}> JoeBot</a> - custom Discord bot for my friends</li>
                     <li className={pageCSS['item']}> <a href="https://denialpan.github.io/portfolio-old-1/" target="_blank" rel="noreferrer" className={pageCSS['link']}> Old Portfolio</a> - learned a lot of CSS from this</li>    
                 </motion.ul>
