@@ -74,6 +74,8 @@ function Home() {
     const setDark = () => {
         setBg(colorDark);
         setIsDark(true);
+        document.getElementById("main").style.backgroundColor = colorDark;
+
         localStorage.setItem('backgroundColor', bg);
         localStorage.setItem('isDark', isDark);
     }
@@ -81,6 +83,8 @@ function Home() {
     const setLight = () => {
         setBg(colorLight);
         setIsDark(false);
+        document.getElementById("main").style.backgroundColor = colorLight;
+        
         localStorage.setItem('backgroundColor', bg);
         localStorage.setItem('isDark', isDark);
     }
@@ -235,7 +239,9 @@ function Home() {
                             transform: {duration: 0.5, ease: "circIn"},
                             duration: 0.3
                         }}
-                        onClick={() => toggleThemes()}
+                        onClick={() => {
+                            toggleThemes();
+                        }}
                     >
                         <img className={pageCSS['social-svg']} src={darkThemeToggle} alt="toggle"></img>
                     </motion.div>

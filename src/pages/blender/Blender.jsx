@@ -15,7 +15,7 @@ function Blog() {
 
         if (savedBg) {
             setBg(savedBg);
-        }
+        } 
 
         if (savedBg === '#111111') {
             setIsDark(true);
@@ -31,18 +31,20 @@ function Blog() {
     return(
 
         <motion.div 
+        
             style={{backgroundColor: bg}}
             animate={{backgroundColor: bg}}
             transition={{
                 ease: "linear",
                 duration: 0.3
             }}
-            className={pageCSS['page-container']}
-            >
+
+            className={pageCSS['page-container']}>
 
             <motion.div 
             
             animate={{color: isDark ? "#FFFFFF" : "#000000"}}
+            exit={{opacity: 0}}
             transition={{
                 ease: "linear",
                 duration: 0.3
