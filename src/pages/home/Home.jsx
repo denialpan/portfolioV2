@@ -205,7 +205,7 @@ function Home() {
                 <div className={pageCSS['social-container']}>
                     <motion.button 
                         
-                        whileHover={{color: "#7500FF", background: isDark ? "#111111" : "#FFFFFF"}}
+                        whileHover={{color: "#7500FF", backgroundColor: isDark ? "#111111" : "#FFFFFF"}}
                         transition={{duration: 0.3}}
 
                         onClick={(e) => {
