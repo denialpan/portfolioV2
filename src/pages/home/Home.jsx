@@ -153,10 +153,7 @@ function Home() {
                     
                         src={me} 
                         alt="me" 
-
-                        title="CLICK TO TOGGLE THEME"
-
-                        style={{maxHeight: 100, borderRadius: "50%"}}></motion.img>
+                        style={{maxHeight: 100, borderRadius: "50%", userSelect: "none"}}></motion.img>
                     
                     
                     <div className={pageCSS['stats']}> 
