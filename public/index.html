@@ -40,3 +40,24 @@
     -->
   </body>
 </html>
+
+<!-- persistent background color on reload -->
+<style>
+
+    html {
+
+        background-color: #FFFFFF;
+    }
+
+</style>
+<script>
+
+    if (!localStorage.getItem('backgroundColor')) {
+        localStorage.setItem('backgroundColor', '#FFFFFF');
+    }
+
+    var storedBackgroundColor = localStorage.getItem('backgroundColor');
+
+    document.documentElement.style.backgroundColor = storedBackgroundColor;
+
+</script>
