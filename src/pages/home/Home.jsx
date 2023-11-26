@@ -101,7 +101,7 @@ function Home() {
     return (
         
         <motion.div 
-        
+
             style={{backgroundColor: bg}}
             animate={{backgroundColor: bg}}
             transition={{
@@ -125,11 +125,7 @@ function Home() {
                     animate={{opacity: 1}}
                     exit={{opacity: 0}}
 
-                    whileHover={{ letterSpacing: '0.5px'}}
-                    transition={{ 
-                        opacity: {duration: 0.3},
-                        letterSpacing: {duration: 0.2} 
-                    }}
+                    transition={{ duration: 0.3 }}
                     onHoverStart={choosePhrase}
                     onHoverEnd={function() {
                         setPhrase(defaultPhrase);
