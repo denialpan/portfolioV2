@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4bf6e419.css",
+    "main.css": "/portfolio/static/css/main.0ddd723c.css",
     "main.js": "/portfolio/static/js/main.fc1d6993.js",
+    "static/media/Montserrat-Regular.ttf": "/portfolio/static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
+    "static/media/OverpassMono-Bold.ttf": "/portfolio/static/media/OverpassMono-Bold.210ed9d1134b699e40f6.ttf",
+    "static/media/SourceCodePro-Regular.ttf": "/portfolio/static/media/SourceCodePro-Regular.75bc14637f1d0317a8c5.ttf",
+    "static/media/RobotoMono-Regular.ttf": "/portfolio/static/media/RobotoMono-Regular.94ffabb10cbc81ee42ba.ttf",
     "static/media/dark-theme.svg": "/portfolio/static/media/dark-theme.69a5151b513fadd577891ee2d5ee0b19.svg",
     "index.html": "/portfolio/index.html",
     "static/media/github.svg": "/portfolio/static/media/github.04be58c17b3d5e9744424d414240dd85.svg",
     "static/media/facebook.svg": "/portfolio/static/media/facebook.2dd5bdd216194f5edc8cf589f0378383.svg",
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.1633a96222d704c5ee5222386dd242bd.svg",
-    "main.4bf6e419.css.map": "/portfolio/static/css/main.4bf6e419.css.map",
+    "main.0ddd723c.css.map": "/portfolio/static/css/main.0ddd723c.css.map",
     "main.fc1d6993.js.map": "/portfolio/static/js/main.fc1d6993.js.map"
   },
   "entrypoints": [
-    "static/css/main.4bf6e419.css",
+    "static/css/main.0ddd723c.css",
     "static/js/main.fc1d6993.js"
   ]
 }
