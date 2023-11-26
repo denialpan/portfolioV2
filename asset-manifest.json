@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d6fcb9c2.css",
+    "main.css": "/portfolio/static/css/main.40c6668b.css",
     "main.js": "/portfolio/static/js/main.37b0f1d8.js",
     "static/media/Montserrat-Regular.ttf": "/portfolio/static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
     "static/media/OverpassMono-Bold.ttf": "/portfolio/static/media/OverpassMono-Bold.210ed9d1134b699e40f6.ttf",
@@ -11,11 +11,11 @@
     "static/media/github.svg": "/portfolio/static/media/github.04be58c17b3d5e9744424d414240dd85.svg",
     "static/media/facebook.svg": "/portfolio/static/media/facebook.2dd5bdd216194f5edc8cf589f0378383.svg",
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.1633a96222d704c5ee5222386dd242bd.svg",
-    "main.d6fcb9c2.css.map": "/portfolio/static/css/main.d6fcb9c2.css.map",
+    "main.40c6668b.css.map": "/portfolio/static/css/main.40c6668b.css.map",
     "main.37b0f1d8.js.map": "/portfolio/static/js/main.37b0f1d8.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6fcb9c2.css",
+    "static/css/main.40c6668b.css",
     "static/js/main.37b0f1d8.js"
   ]
 }
