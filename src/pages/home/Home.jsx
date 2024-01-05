@@ -159,7 +159,7 @@ function Home() {
                     <div className={pageCSS['stats']}>
 
                         <div> <b>  21 year old U.G. at <a href="https://www.gatech.edu" target="_blank" rel="noreferrer" style={{ color: "inherit" }}> GATECH </a> </b></div>
-                        <div> React, Java, C, JavaFX </div>
+                        <div> React, Java, Obj-C, C </div>
                         <div> <i> learning how to cook </i> </div>
 
                     </div>
@@ -183,6 +183,15 @@ function Home() {
                     }}
                     className={pageCSS['description']}> Even with all that logical thinking, I also like to do 3D art and design in my free time. </motion.p>
 
+                <motion.p
+
+                    animate={{ color: isDark ? "#FFFFFF" : "#000000" }}
+                    transition={{
+                        ease: "linear",
+                        duration: 0.3
+                    }}
+                    className={pageCSS['description']}> I am currently working on a backend with Django to make this site more versatile! </motion.p>
+
                 <motion.ul
 
                     animate={{ color: isDark ? "#FFFFFF" : "#000000" }}
@@ -193,9 +202,10 @@ function Home() {
 
                     className={pageCSS['link-to-projects']}>
                     <li className={pageCSS['item']}> <a href="https://github.com/denialpan/DoABarrelWall" target="_blank" rel="noreferrer" className={pageCSS['link']}> DoABarrelWall</a> - iOS tweak development for iOS 12 - 15</li>
+                    <li className={pageCSS['item']}> <a href="https://gtagora.com" target="_blank" rel="noreferrer" className={pageCSS['link']}> GTAgora</a> - frontend for a journal of Christian thought</li>
                     <li className={pageCSS['item']}> <Link to="/blender" className={pageCSS['link']}>Blender</Link> - some digital art things I've made </li>
-                    <li className={pageCSS['item']}> <a href="https://github.com/denialpan/JoeBot" target="_blank" rel="noreferrer" className={pageCSS['link']}> JoeBot</a> - custom Discord bot for my friends</li>
-                    <li className={pageCSS['item']}> <a href="https://denialpan.github.io/portfolio-old-1/" target="_blank" rel="noreferrer" className={pageCSS['link']}> Old Portfolio</a> - learned a lot of CSS from this</li>
+                    <li className={pageCSS['item']}> <a href="https://github.com/denialpan/JoeBot" target="_blank" rel="noreferrer" className={pageCSS['link']}> JoeBot</a> - custom Java/FX Discord bot for my friends</li>
+                    <li className={pageCSS['item']}> <a href="https://denialpan.github.io/portfolio-old-1/" target="_blank" rel="noreferrer" className={pageCSS['link']}> Old Portfolio</a> - learned a LOT of React and CSS from this</li>
                 </motion.ul>
 
                 <div className={pageCSS['social-container']}>
